@@ -16,3 +16,5 @@ function vowelsAndConsonants(s) {
     console.log(str1 + str2);
     
 }
+
+var re = /^([aeiou]).*\1$/; //match start and end vowels
